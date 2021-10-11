@@ -14,9 +14,9 @@ const Home = () => {
         <title>Jenish's Portfolio</title>
         <meta name="Jenish Soni's Personal Portfolio" />
         <meta property="og:title" content="Jenish's Portfolio" />
-<meta property="og:type" content="video.movie" />
-<meta property="og:url" content="https://www.jenishsoni.com/" />
-<meta property="og:image" content="favicon.ico" />
+        <meta property="og:type" content="video.movie" />
+        <meta property="og:url" content="https://www.jenishsoni.com/" />
+        <meta property="og:image" content="1.png" />
       </head>
       <Section grid>
         <Hero />

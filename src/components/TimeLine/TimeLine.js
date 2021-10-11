@@ -32,8 +32,6 @@ const Timeline = () => {
     }
   }
 
-  // snap back to beginning of scroll when window is resized
-  // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -49,12 +47,10 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm a Computer Science student at Concordia University and make projects for fun. <br /><br />
-        I'm currently exploring functional applications using Next.js mainly. I love to write about algorithms(upper bounds) and their complexities (lower bounds). <br /><br />
-        Mathematics is one of my favorite areas - especially, I love to explore and test conjectures. It's my personal taste to illustrate, visualize, and relate them to algorithms. I also do a bit of Competitive Programming to keep my DSA strong. I've solved 100+
-        questions on AlgoExpert and 360+ problems on Leetcode so far. <br /><br />
-        I'm a big big chess fan and a beginner tournament player. I play a lot of games, solve puzzles, and read theories to become a better player. My current Blitz ELO is 1700+. Blitz (3 + 2) <i>Fischer Time Control</i> is my favorite mode to play. Challange me to a game! <br /><br />
-        I speak more than 4 languages being fluent in English and intermediate in French. <br /><br />
+        I'm currently exploring full-stack functional applications and open source projects and contributions. I love to write about algorithms(upper bounds) and their complexities (lower bounds). <br /><br />
+        Mathematics is one of my favorite areas - especially, I love to explore and test conjectures. A unique blend where I mix conjectures with algorithms and then do the analysis. I also do a bit of Competitive Programming to keep my DSA strong. I've solved 100+
+        questions on AlgoExpert and 360+ problems on Leetcode so far. <br />< br />
+        I'm a big chess fan and a beginner tournament player. I play a lot of games, solve puzzles, and read theories on a regular basis. My current ELO is ~1700 and Blitz is my favorite mode to play. <br /><br />
         I'm seeking full-time SE/ SDE opportunities starting January 2022.  I'm currently based in Montréal and am open to relocate anywhere in Canada.
         Feel free to contact me. <br />
       </SectionText>
