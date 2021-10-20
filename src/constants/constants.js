@@ -1,10 +1,28 @@
 export const projects = [
   {
+    title: 'HTTPC (with Docker)',
+    description: "A basic c-URL like application made in a team of 2, 'HTTPC' - mimics the basic functionality to execute GET and POST requests. Supports page redirection and File i/o. Built in java, this project is also deployed over a Docker container.",
+    image: '/images/6.png',
+    tags: ['Java', 'Docker', 'Sockets'],
+    source: 'https://github.com/pro1zero/COMP-6461/blob/main/README.md',
+    visit: 'https://github.com/pro1zero/COMP-6461/tree/main/dockerHTTPC',
+    id: 5,
+  },
+  {
+    title: 'Convex Hull Visualizer',
+    description: "Coming Soon!",
+    image: '/images/5.png',
+    tags: ['JavaScript', 'Algorithms'],
+    source: '/#',
+    visit: '/#',
+    id: 4,
+  },
+  {
     title: 'Jenish\'s Portfolio',
     description: "Essentially the webiste that you're currently exploring. This is my personal portfolio which is built using Next.js and hosted on the domain jenishsoni.com",
     image: '/images/1.png',
     tags: ['JavaScript', 'Next.js'],
-    source: 'http://jenishsoni.com',
+    source: 'https://jenishsoni.com',
     visit: 'https://github.com/pro1zero/Personal-Portfolio/tree/main/src',
     id: 0,
   },
@@ -34,15 +52,6 @@ export const projects = [
     source: 'https://github.com/pro1zero/BibCreator/blob/main/BibCreator.java',
     visit: 'https://github.com/pro1zero/BibCreator/blob/main/BibCreator.java',
     id: 3,
-  },
-  {
-    title: 'Visualizer',
-    description: "Coming Soon!",
-    image: '/images/5.png',
-    tags: ['JavaScript', 'Algorithms'],
-    source: '/#',
-    visit: '/#',
-    id: 4,
   },
 ];
 

@@ -1,5 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiJava, DiProlog, DiPython, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiPython, DiReact } from 'react-icons/di';
+import { FaDocker } from "react-icons/fa";
+import { SiSpring } from "react-icons/si";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -10,7 +12,7 @@ const Technologies = () =>  (
 <br />
 <SectionTitle>Technologies</SectionTitle>
 <SectionText>
-Frankly speaking, I'm more into designing algorithms and optimization​ yet​ not limited to making interactive applications using React and Next.js. <br />
+Frankly speaking, I'm more into designing algorithms and optimization​ yet​ not limited to making interactive full-stack applications and using deployment platforms such as Docker and Kubernetes.  <br />
 </SectionText>
 <List>
   <ListItem>
@@ -24,25 +26,55 @@ Frankly speaking, I'm more into designing algorithms and optimization​ yet​ 
     </ListContainer>
   </ListItem>
   <ListItem>
-    <DiReact size = "3rem"/>
+    <FaDocker size = "3rem"/>
     <ListContainer>
-      <ListTitle>Front-End</ListTitle>
+      <ListTitle>Platforms</ListTitle>
       <ListParagraph>
-        React, Next.js, <br />
-        and Django
+        Docker and <br />
+        Kubernetes
       </ListParagraph>
     </ListContainer>
   </ListItem>
   <ListItem>
-    <DiFirebase size = "3rem"/>
+    <DiReact size = "3rem"/>
     <ListContainer>
-      <ListTitle>Back-End & Databases</ListTitle>
+      <ListTitle>Front-End</ListTitle>
       <ListParagraph>
-        Spring, MySQL, <br />
-        and Apache Tomcat
+        Next.js, React, <br />
+        and Django
       </ListParagraph>
     </ListContainer>
   </ListItem>
+</List>
+<List>
+<ListItem>
+    <DiFirebase size = "3rem"/>
+    <ListContainer>
+      <ListTitle>Databases</ListTitle>
+      <ListParagraph>
+        MySQL and <br />
+        Apache Tomcat
+      </ListParagraph>
+    </ListContainer>
+  </ListItem>
+  <ListItem>
+    <SiSpring size = "3rem"/>
+    <ListContainer>
+      <ListTitle>Back-End</ListTitle>
+      <ListParagraph>
+        Spring
+      </ListParagraph>
+    </ListContainer>
+  </ListItem>
+  {/* <ListItem>
+    <DiFirebase size = "3rem"/>
+    <ListContainer>
+      <ListTitle>Tools</ListTitle>
+      <ListParagraph>
+        
+      </ListParagraph>
+    </ListContainer>
+  </ListItem> */}
 </List>
 </Section>
 );
