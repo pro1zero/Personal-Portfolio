@@ -58,7 +58,6 @@ export const projects = [
 export const TimeLineData = [
   { year: "June 2015", text: 'Started B.E in Information and Communication Technology.', },
   { year: "Late 2019", text: 'Graduated my UnderGrads - Started Master\'s in Computer Science.', },
-  { year: "October 2021", text: 'Currently seeking full-time SE/ SDE roles for Jan-2022.', },
-  { year: "December 2021", text: 'Will graduate my Master\'s program.', },
+  { year: "December 2021", text: 'Graduated my Master\'s program from Concordia University.', },
   { year: "January 2022", text: 'Will commence my first full-time SE/ SDE role.', },
 ];

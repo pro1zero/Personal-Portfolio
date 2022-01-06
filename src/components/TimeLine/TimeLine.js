@@ -47,10 +47,10 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm currently exploring full-stack functional applications and open source projects and contributions. I love to write about algorithms(upper bounds) and their complexities (lower bounds). <br /><br />
+        I'm currently exploring full-stack functional applications, and open source projects and contributions. I love to write about algorithms(upper bounds) and their complexities (lower bounds). <br /><br />
         Mathematics is one of my favorite areas - especially, I love to explore and test conjectures. A unique blend where I mix conjectures with algorithms and then do the analysis. I also do a bit of Competitive Programming to keep my DSA strong. I've solved 100+
         questions on AlgoExpert and 375+ problems on Leetcode so far. <br />< br />
-        I'm a big chess fan and a beginner tournament player. I play a lot of games, solve puzzles, and read theories on a regular basis. My current ELO is ~1700 and Blitz is my favorite mode to play. <br /><br />
+        I'm a big chess fan and a beginner tournament player. I play a lot of games, solve puzzles, and read theories on a regular basis. My current ELO is ~1735 and Blitz is my favorite mode to play. <br /><br />
         I'm seeking full-time SE/ SDE opportunities starting January 2022.  I'm currently based in Montréal and am open to relocate anywhere in Canada.
         Feel free to contact me. <br />
       </SectionText>
