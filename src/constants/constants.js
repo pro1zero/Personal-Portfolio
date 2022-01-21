@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Quick Sort Visualizer',
+    description: "Currently a work in progress, this mini-project visualizes the quick sort algorithm on a fixed length of integer values. Use front and back values to observe the sorting steps in detail. Orange represents a pivot, red represents the current elements being compared, and green being sorted.",
+    image: '/images/7.png',
+    tags: ['Javascript', 'Yarn', 'React'],
+    source: 'https://quicksortvisualizer.netlify.app/',
+    visit: 'https://github.com/pro1zero/Visualizer',
+    id: 7,
+  },
+  {
     title: 'HTTPC (with Docker)',
     description: "A basic c-URL like application made in a team of 2, 'HTTPC' - mimics the basic functionality to execute GET and POST requests. Supports page redirection and File i/o. Built in java, this project is also deployed over a Docker container.",
     image: '/images/6.png',
@@ -59,5 +68,5 @@ export const TimeLineData = [
   { year: "June 2015", text: 'Started B.E in Information and Communication Technology.', },
   { year: "Late 2019", text: 'Graduated my UnderGrads - Started Master\'s in Computer Science.', },
   { year: "December 2021", text: 'Graduated my Master\'s program from Concordia University.', },
-  { year: "January 2022", text: 'Will commence my first full-time SE/ SDE role.', },
+  { year: "January 2022", text: 'Seeking a full-time SE/ SDE role.', },
 ];
