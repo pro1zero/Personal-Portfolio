@@ -1,4 +1,22 @@
 export const projects = [
+  // {
+  //   title: 'A Cloud Native Project',
+  //   description: "Coming Soon!",
+  //   image: '/images/9.png',
+  //   tags: ['Google Cloud Platform', 'C++'],
+  //   source: '/#',
+  //   visit: '/#',
+  //   id: 9,
+  // },
+  {
+    title: 'Student Inventory - Containerized',
+    description: "This spring project demonstrates a 3-layer architecture for data handling, uses postgres for GET, POST, PUT, and DELETE operations, and is currently being deployed over a docker container using docker-compose.",
+    image: '/images/8.png',
+    tags: ['Spring', 'Maven', 'PostgreSQL', 'Docker-Compose'],
+    source: 'https://github.com/pro1zero/Spring-JPA-PostgreSQL-Docker-Compose#readme',
+    visit: 'https://github.com/pro1zero/Spring-JPA-PostgreSQL-Docker-Compose/tree/main/src/main',
+    id: 8,
+  },
   {
     title: 'Quick Sort Visualizer',
     description: "Currently a work in progress, this mini-project visualizes the quick sort algorithm on a fixed length of integer values. Use front and back values to observe the sorting steps in detail. Orange represents a pivot, red represents the current elements being compared, and green being sorted.",
@@ -17,15 +35,7 @@ export const projects = [
     visit: 'https://github.com/pro1zero/COMP-6461/tree/main/dockerHTTPC',
     id: 5,
   },
-  {
-    title: 'Convex Hull Visualizer',
-    description: "Coming Soon!",
-    image: '/images/5.png',
-    tags: ['JavaScript', 'Algorithms'],
-    source: '/#',
-    visit: '/#',
-    id: 4,
-  },
+ 
   {
     title: 'Jenish\'s Portfolio',
     description: "Essentially the webiste that you're currently exploring. This is my personal portfolio which is built using Next.js and hosted on the domain jenishsoni.com",
@@ -68,5 +78,5 @@ export const TimeLineData = [
   { year: "June 2015", text: 'Started B.E in Information and Communication Technology.', },
   { year: "Late 2019", text: 'Graduated my UnderGrads - Started Master\'s in Computer Science.', },
   { year: "December 2021", text: 'Graduated my Master\'s program from Concordia University.', },
-  { year: "January 2022", text: 'Seeking a full-time SE/ SDE role.', },
+  { year: "Currently", text: 'am a Software Engineer at Getty Images', },
 ];

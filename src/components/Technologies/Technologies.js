@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiPython, DiReact } from 'react-icons/di';
+import { DiFirebase, DiPython, DiReact, DiGoogleCloudPlatform} from 'react-icons/di';
 import { FaDocker } from "react-icons/fa";
 import { SiSpring } from "react-icons/si";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -12,7 +12,7 @@ const Technologies = () =>  (
 <br />
 <SectionTitle>Technologies</SectionTitle>
 <SectionText>
-Frankly speaking, I'm more into designing algorithms and optimization​ yet​ not limited to making interactive full-stack applications and using deployment platforms such as Docker and Kubernetes.  <br />
+Broadly speaking, I'm more into designing algorithms and optimization​ yet​ not limited to making interactive full-stack applications and using deployment platforms such as Docker and Kubernetes.  <br />
 </SectionText>
 <List>
   <ListItem>
@@ -20,21 +20,32 @@ Frankly speaking, I'm more into designing algorithms and optimization​ yet​ 
     <ListContainer>
       <ListTitle>Programming Languages</ListTitle>
       <ListParagraph>
-        Java, Python, <br />
-        C++, and GoLang
+        C#, Java, Python, <br />
+        C++, Javascript, and GoLang
       </ListParagraph>
     </ListContainer>
   </ListItem>
   <ListItem>
     <FaDocker size = "3rem"/>
     <ListContainer>
-      <ListTitle>Platforms</ListTitle>
+      <ListTitle>Platforms and Brokers</ListTitle>
       <ListParagraph>
-        Docker and <br />
-        Kubernetes
+        Docker and Kubernetes<br />
+        Apache Kafka and RabbitMQ
       </ListParagraph>
     </ListContainer>
   </ListItem>
+  <ListItem>
+    <DiGoogleCloudPlatform size = "3rem"/>
+    <ListContainer>
+      <ListTitle>Cloud Native</ListTitle>
+      <ListParagraph>
+        Google Cloud Platform and AWS
+      </ListParagraph>
+    </ListContainer>
+  </ListItem>
+  </List>
+  <List>
   <ListItem>
     <DiReact size = "3rem"/>
     <ListContainer>
@@ -45,15 +56,13 @@ Frankly speaking, I'm more into designing algorithms and optimization​ yet​ 
       </ListParagraph>
     </ListContainer>
   </ListItem>
-</List>
-<List>
 <ListItem>
     <DiFirebase size = "3rem"/>
     <ListContainer>
       <ListTitle>Databases</ListTitle>
       <ListParagraph>
-        MySQL and <br />
-        Apache Tomcat
+        SQL, MySQL, PostgreSQL, <br />
+        and Apache Tomcat
       </ListParagraph>
     </ListContainer>
   </ListItem>

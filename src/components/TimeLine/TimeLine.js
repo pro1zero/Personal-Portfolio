@@ -43,16 +43,22 @@ const Timeline = () => {
   return (
     
     <Section id="about">
+      {/* <Section id="exp">
+        <SectionDivider />
+        <br />
+        <SectionTitle>Work Experience</SectionTitle>
+          <SectionText>
+            
+          </SectionText>
+      </Section> */}
       <SectionDivider />
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm currently exploring full-stack functional applications, and open source projects and contributions. I love to write about algorithms(upper bounds) and their complexities (lower bounds). <br /><br />
-        Mathematics is one of my favorite areas - especially, I love to explore and test conjectures. A unique blend where I mix conjectures with algorithms and then do the analysis. I also do a bit of Competitive Programming to keep my DSA strong. I've solved 100+
-        questions on AlgoExpert and 375+ problems on Leetcode so far. <br />< br />
-        I'm a big chess fan and a beginner tournament player. I play a lot of games, solve puzzles, and read theories on a regular basis. My current ELO is ~1735 and Blitz is my favorite mode to play. <br /><br />
-        I'm seeking full-time SE/ SDE opportunities starting January 2022.  I'm currently based in Montréal and am open to relocate anywhere in Canada.
-        Feel free to contact me. <br />
+        I'm currently working as a Software Engineer at Getty Images. I code mainly in C# but not limited to using .NET, Kafka, RabbitMQ, AWS as well as ML/AI (Still Java is my favorite Programming language😀) . I love to write about algorithms(upper bounds) and their complexities (lower bounds). <br /><br />
+        Mathematics is one of my favorite areas - especially, I love to explore and test conjectures. A unique blend where I mix conjectures with algorithms and then do the analysis. Currently I'm doing a little research on the Number System - specifically on the multiplicity of prime numbers collectively. I also do a bit of Competitive Programming to keep my DSA strong. <br />< br />
+        I'm a big chess fan and a beginner tournament player. Lately I've been playing chess intermittently. My current ELO is ~1750 and Blitz is my favorite mode to play. <br /><br />
+        Based in Montréal, my position is 100% WFH. Feel free to contact me should you need to. <br />
       </SectionText>
       <br />
       <SectionDivider />
